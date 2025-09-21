@@ -1,0 +1,103 @@
+.landing-hero {
+  min-height: 100vh;
+  background: url('/landing-bg.png') center/cover no-repeat;
+  position: relative;
+  color: #fff;
+}
+
+.landing-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 48px 0 48px;
+  font-size: 1rem;
+}
+
+.logo {
+  font-weight: bold;
+  color: #00e38c;
+  font-size: 1.2rem;
+}
+.logo .subtitle {
+  color: #fff;
+  font-weight: normal;
+  margin-left: 8px;
+  font-size: 0.9rem;
+}
+
+.landing-nav ul {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.login {
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.cta-nav {
+  background: #00e38c;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 24px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.hero-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40%;
+  transform: translateY(-40%);
+  text-align: center;
+  width: 100%;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 16px;
+  line-height: 1.1;
+}
+
+.hero-content .highlight {
+  color: #00e38c;
+}
+
+.hero-content .subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 32px;
+  font-weight: 500;
+}
+
+.cta-main {
+  background: #00b86b;
+  color: #fff;
+  border: none;
+  border-radius: 16px;
+  padding: 24px 0;
+  width: 480px;
+  max-width: 90vw;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.whatsapp {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 8px;
+}
