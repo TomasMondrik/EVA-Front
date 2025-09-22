@@ -1,0 +1,123 @@
+.segunda-seccion {
+  padding: 60px 0 40px 0;
+  background: #fff;
+  text-align: center;
+}
+
+.segunda-seccion h2 {
+  font-size: 2.7rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 32px;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 1100px;
+  margin: 0 auto 40px auto;
+}
+
+.card {
+  position: relative;
+  border-radius: 18px;
+  overflow: hidden;
+  min-height: 260px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+  background: #eee;
+  display: flex;
+  align-items: flex-end;
+}
+
+.card-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.7);
+  transition: filter 0.4s;
+  z-index: 1;
+}
+
+.card-content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  padding: 24px 20px 18px 20px;
+  text-align: left;
+  width: 100%;
+  transition: color 0.4s;
+}
+
+.card h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card .desc {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.card a {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 0.98rem;
+  font-weight: 500;
+  margin-top: 8px;
+  display: inline-block;
+  transition: color 0.3s;
+}
+
+/* Hover effect: solo sobre la tarjeta */
+.card:hover {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+}
+
+.card:hover .card-bg {
+  filter: brightness(1) blur(2px);
+}
+
+.card:hover .card-content {
+  color: #222;
+  background: rgba(255,255,255,0.85);
+  border-radius: 0 0 18px 18px;
+}
+
+.card:hover a {
+  color: #1de9b6;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .cards-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+}
+@media (max-width: 600px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .segunda-seccion h2 {
+    font-size: 2rem;
+  }
+}
+
+.contacto h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.verde {
+  color: #1de9b6;
+  font-weight: 700;
+}
