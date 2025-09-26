@@ -1,0 +1,36 @@
+{
+  "name": "eva-front",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontend del proyecto EVA con React y Vite",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomasMondrik/EVA-Front.git"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "eva",
+    "frontend"
+  ],
+  "author": "Tomas Mondrik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomasMondrik/EVA-Front/issues"
+  },
+  "homepage": "https://github.com/TomasMondrik/EVA-Front#readme",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^7.1.7"
+  }
+}
